@@ -4,15 +4,15 @@
     <h1>INPUTS</h1>
 
     <form action="/predict" method="post">
-        <input placeholder="Enter Sepal Length" type="number" name="sepalLength" id="sepalLength" step="0.01">
-        <input placeholder="Enter Sepal Width" type="number" name="sepalWidth" id="sepalWidth" step="0.01">
-        <input placeholder="Enter Petal Length" type="number" name="petalLength" id=petalLength" step="0.01">
-        <input placeholder="Enter Petal Width" type="number" name="petalWidth" id="petalWidth" step="0.01">
+        <input placeholder="Enter Sepal Length" type="number" name="sepalLength" id="sepalLength" step="0.1">
+        <input placeholder="Enter Sepal Width" type="number" name="sepalWidth" id="sepalWidth" step="0.1">
+        <input placeholder="Enter Petal Length" type="number" name="petalLength" id=petalLength" step="0.1">
+        <input placeholder="Enter Petal Width" type="number" name="petalWidth" id="petalWidth" step="0.1">
 
         <input type="submit" value="Submit Form">
     </form>
-    {% if results|int == 0 or results %}
-    <h2>Results -----> {{ results }}</h2>
+    {% if results or results == 0 %}
+    <h2>Results =====> {{ results }}</h2>
     {% endif %}
 </body>
 
