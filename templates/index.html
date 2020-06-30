@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
 
 <body>
     <h1>INPUTS</h1>
@@ -16,4 +16,22 @@
     {% endif %}
 </body>
 
+</html> -->
+
+<html>
+    <body>
+        <form action="/predict" method="POST">
+            <input placeholder="Enter value for sepalLength" type="number" step="0.1" name="sepalLength" id="sepalLength"/>
+            <input placeholder="Enter value for sepalWidth" type="number" step="0.1" name="sepalWidth" id="sepalWidth"/>
+            <input placeholder="Enter value for petalLength" type="number" step="0.1" name="petalLength" id="petalLength"/>
+            <input placeholder="Enter value for petalWidth" type="number" step="0.1" name="petalWidth" id="petalWidth"/>
+
+            <input type="submit" value="Submit Form"/>
+        </form>
+
+        {% if results or results == 0 %}
+            <h2>Results ======> {{results}}</h2>
+        {% endif %}
+
+    </body>
 </html>

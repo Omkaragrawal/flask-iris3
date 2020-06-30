@@ -1,4 +1,4 @@
 flask
-flask-cors
 numpy
 scikit-learn==0.22.2.post1
+flask-cors
