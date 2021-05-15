@@ -1,5 +1,6 @@
 gunicorn
 flask
 numpy
+Cython
 scikit-learn==0.22.2.post1
 flask-cors
