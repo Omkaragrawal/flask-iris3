@@ -8,7 +8,8 @@
           "sepalWidth": 3.5,
           "petalLength": 1.4,
           "petalWidth": 0.2,
-          "value": 0
+          "value": 0,
+          "name": "Iris Setosa"
     },
     
     {
@@ -16,7 +17,8 @@
           "sepalWidth": 3.2,
           "petalLength": 4.7,
           "petalWidth": 1.4,
-          "value": 1
+          "value": 1,
+          "name": "Iris Versicolor"
     },
 
     {
@@ -24,7 +26,8 @@
           "sepalWidth": 3.3,
           "petalLength": 6.0,
           "petalWidth": 2.5,
-          "value": 2
+          "value": 2,
+          "name": "Iris Virginica"
     }
 
 
